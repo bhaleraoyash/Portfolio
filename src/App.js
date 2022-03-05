@@ -37,7 +37,6 @@ function App() {
           <Route path="/Portfolio/resume" component={Resume} />
           <Route path="/Portfolio/contact" component={Contact} />
         </Switch>
-        {/* <Footer /> */}
       </div>
     </Router>
   );

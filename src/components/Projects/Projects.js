@@ -59,16 +59,6 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={canny}
-              isBlog={false}
-              title="Canny Edge Detector"
-              description="Detect edges in images using the Canny Edge Detection algorithm. Implemented in Python from scratch without using OpenCV."
-              link="https://github.com/bhaleraoyash/Canny-Edge-Detector"
-            />
-          </Col> */}
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={depression}
@@ -78,6 +68,16 @@ function Projects() {
               link="www.detectdepression.com"
             />
           </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={canny}
+              isBlog={false}
+              title="Canny Edge Detector"
+              description="Detect edges in images using the Canny Edge Detection algorithm. Implemented in Python from scratch without using OpenCV."
+              link="https://github.com/bhaleraoyash/Canny-Edge-Detector"
+            />
+          </Col> */}
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
